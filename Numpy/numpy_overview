@@ -1,2 +1,6 @@
 Numpy is a Linear Algebra Library for Python.
 Numpy arrays comes in two flavors: Vectors (strictly 1D arrays) and matrices (2D arrays) 
+
+When we create a new split from the numpy array it refers/points to the same parent array. It just creates the new view of the array. If we make any changes in the new split, the changes are also reflected to the parent array.
+Numpy does this to save space when dealing with large arrays.
+To create a different copy of the numpy array, copy() is used to create the copy of the parent array,
