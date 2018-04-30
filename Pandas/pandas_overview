@@ -1,0 +1,7 @@
+Pandas is open source library built on numpy. It is python version of excel.
+
+Series:
+Series is similar to numpy array the difference is that Series can have dynamic/user indexes and Series can hold multiple data objects.
+Data in series can be accessed using the given user index and also by the numeric index of the python.
+pd_series = pd.Series(data) 
+pd_series['a'] and pd_series[0] will print the same output for data = {'a':1,'b':2}
