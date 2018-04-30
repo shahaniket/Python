@@ -3,4 +3,9 @@ Numpy arrays comes in two flavors: Vectors (strictly 1D arrays) and matrices (2D
 
 When we create a new split from the numpy array it refers/points to the same parent array. It just creates the new view of the array. If we make any changes in the new split, the changes are also reflected to the parent array.
 Numpy does this to save space when dealing with large arrays.
-To create a different copy of the numpy array, copy() is used to create the copy of the parent array,
+To create a different copy of the numpy array, copy() is used to create the copy of the parent array.
+
+Operations:
+Adding, Subtraction, Multiplication multiple numpy arrays is possible only if the shape of the arrays is same. (arr1 + arr2)
+
+Scaler operation: In scaler operation we can perform any operation on all the elements of the array in one go.(arr1 + 100)
