@@ -5,3 +5,10 @@ Series is similar to numpy array the difference is that Series can have dynamic/
 Data in series can be accessed using the given user index and also by the numeric index of the python.
 pd_series = pd.Series(data) 
 pd_series['a'] and pd_series[0] will print the same output for data = {'a':1,'b':2}
+
+DataFrame:
+DF is collection of Pandas series sharing same index(label). DF has the columns and rows indexes and we can retirve the data using these columns and labels.
+DF can be accessed using index as well using columns.
+To access columns we can directly pass the column name in the form of list to DF. (df[['A','B','C']])
+To access rows we can two methods loc(label based retrival) and iloc(index based retrival)
+
