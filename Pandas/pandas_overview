@@ -11,4 +11,4 @@ DF is collection of Pandas series sharing same index(label). DF has the columns 
 DF can be accessed using index as well using columns.
 To access columns we can directly pass the column name in the form of list to DF. (df[['A','B','C']])
 To access rows we can two methods loc(label based retrival) and iloc(index based retrival)
-
+In conditional selection statement we can insert multiple condition on the DF. But we can't use conditional operators(and,or..) as it can't compare series to series. They only compare boolean to boolean values. However, we can use (&, |, ..) instead of operators.
