@@ -1,0 +1,17 @@
+Seaborn is a Python library which is used for visualisation and analysis of the data. Seaborn is built upon Matplotlib and gives a full control on the various graphs.
+Following are the list of graphs that can be visualized using Seaborn.
+
+Distribution plots is used to check observations of particular column. Following are the distribution plots:
+1) Distplot.
+2) jointplot
+3) pairplot
+4) rugplot
+5) kdeplot
+
+Categorical plots is used when we have to plot graphs for numerical columns wrt categorical variables. Following are the Categorical plots:
+1) barplot
+2) countplot
+3) boxplot
+4) violinplot
+5) stripplot
+6) factorplot
