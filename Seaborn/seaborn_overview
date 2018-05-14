@@ -15,3 +15,10 @@ Categorical plots is used when we have to plot graphs for numerical columns wrt 
 4) violinplot
 5) stripplot
 6) factorplot
+
+Matrix graphs are used to show the co relation between all the columns with eachother. Following are the matrix plots:
+1) Heatmap
+2) Clustermap
+
+Regression plots are mainly used to plot linear model plots.
+1) lmplot
